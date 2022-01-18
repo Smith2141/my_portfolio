@@ -3,3 +3,7 @@
     <router-view />
   </div>
 </template>
+
+<style lang="css">
+@import '~materialize-css/dist/css/materialize.min.css';
+</style>
