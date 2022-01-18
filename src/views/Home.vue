@@ -1,18 +1,17 @@
 <template>
   <div>
-    <Card />
-    <a class="waves-effect waves-light btn">button</a>
+    <Accordion />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Card from '@/components/Card.vue'
+import Accordion from '@/components/Accordion.vue'
 
 export default {
   name: 'Home',
   components: {
-    Card
+    Accordion
   }
 }
 </script>
