@@ -7,8 +7,14 @@
     >
       <li v-for="elem of languagesGetter" :key="elem.id">
         <div class="collapsible-header">
-          <img class="lang-logo" :src="'images/' + elem.logo" alt="logo" />
-          {{ elem.name }}
+          <div class="lang-row">
+            <div class="lang-logo">
+              <img :src="'images/' + elem.logo" alt="logo" />
+            </div>
+            <div class="lang-name">
+              <h6>{{ elem.name }}</h6>
+            </div>
+          </div>
         </div>
         <div class="collapsible-body">
           <span>Lorem ipsum dolor sit amet.</span>

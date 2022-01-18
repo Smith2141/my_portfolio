@@ -1,7 +1,27 @@
-/* img.lang-logo {
-  height: 2%;
-} */
-
 body {
   background-color: rgb(194, 191, 186);
+}
+
+.lang-row {
+  display: flex;
+  text-align: center;
+  
+}
+
+.lang-logo {
+  height: 7vh;
+  min-height: 35px;
+  width: 100%;
+  margin: 0;
+}
+
+.lang-logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.lang-name {
+  margin: auto;
+  margin-left: 10px;
 }
