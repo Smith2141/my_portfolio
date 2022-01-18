@@ -12,12 +12,12 @@
               <img :src="'images/' + elem.logo" alt="logo" />
             </div>
             <div class="lang-name">
-              <h6>{{ elem.name }}</h6>
+              <h5 class="blue-text text-darken-4">{{ elem.name }}</h5>
             </div>
           </div>
         </div>
         <div class="collapsible-body">
-          <span>Lorem ipsum dolor sit amet.</span>
+          <dir class="row container"><Card /></dir>
         </div>
       </li>
     </ul>
@@ -26,9 +26,13 @@
 
 <script>
 import { mapGetters } from 'vuex'
+import Card from '@/components/Card.vue'
 
 export default {
   name: 'Accordion',
+  components: {
+    Card
+  },
   mounted() {
     M.Collapsible.init(this.$refs.collapsible_elems)
     // console.log(this.languagesGetter)

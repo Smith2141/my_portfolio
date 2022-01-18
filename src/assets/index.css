@@ -1,11 +1,19 @@
 body {
-  background-color: rgb(194, 191, 186);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('images/background.jpg');
+  background-size: 100vw;
+}
+
+#main-text,
+.collapsible-header {
+  filter: opacity(0.85);
 }
 
 .lang-row {
   display: flex;
   text-align: center;
-  
 }
 
 .lang-logo {

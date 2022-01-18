@@ -1,5 +1,12 @@
 <template>
-  <div>Card</div>
+  <div class="col s12 m6">
+    <div class="card">
+      <div class="card-panel">
+
+        <p>Name</p>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
