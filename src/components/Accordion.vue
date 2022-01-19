@@ -17,7 +17,14 @@
           </div>
         </div>
         <div class="collapsible-body">
-          <dir class="row container"><Card /></dir>
+          <dir class="row">
+            <Card
+              v-for="project of projectsGetter[elem.name]"
+              :key="project.id"
+              :card_data = "project"
+            >
+            </Card>
+          </dir>
         </div>
       </li>
     </ul>
@@ -38,7 +45,7 @@ export default {
     // console.log(this.languagesGetter)
   },
   computed: {
-    ...mapGetters(['languagesGetter'])
+    ...mapGetters(['languagesGetter', 'projectsGetter'])
   }
 }
 </script>

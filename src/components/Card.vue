@@ -11,6 +11,20 @@
 
 <script>
 export default {
-  name: 'Card'
+  name: 'Card',
+  // data() {
+  //   return {
+  //     card_data: this.card_data
+  //   }
+  // },
+  props: {
+    card_data: {
+      type: Object,
+      default: null
+    }
+  },
+  mounted() {
+    // console.log(this.card_data)
+  }
 }
 </script>
