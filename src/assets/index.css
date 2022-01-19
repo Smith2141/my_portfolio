@@ -11,6 +11,10 @@ body {
   filter: opacity(0.85);
 }
 
+.collapsible-header {
+  border-color: transparent;
+}
+
 .lang-row {
   display: flex;
   text-align: center;
@@ -34,6 +38,15 @@ body {
   margin-left: 10px;
 }
 
+.card.horizontal {
+  filter: opacity(0.9);
+  border-radius: 3px;
+}
+
+.card-action {
+  border-radius: 3px;
+}
+
 .card-description {
   padding-bottom: 10px;
   /* margin-bottom: 20px; */
@@ -47,4 +60,8 @@ li.tag {
   border-radius: 5px;
   padding-left: 3px;
   padding-right: 3px;
+}
+
+a.activator.btn-small {
+  background-color: #01579b;
 }

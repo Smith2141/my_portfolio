@@ -1,9 +1,9 @@
 export default {
   state: {
     languages: [
-      { id: 1, name: 'PHP', logo: 'php.png' },
-      { id: 2, name: 'Python', logo: 'python.png' },
-      { id: 3, name: 'Javascript', logo: 'javascript.png' },
+      { id: 1, name: 'PHP', logo: 'php.png', color: 'deep-purple' },
+      { id: 2, name: 'Python', logo: 'python.png', color: 'indigo' },
+      { id: 3, name: 'Javascript', logo: 'javascript.png', color: 'amber' },
     ],
     projects: {
       PHP: [
@@ -12,7 +12,7 @@ export default {
           language: 'PHP',
           title: 'Предоставление данных',
           description: 'Интеграционные микросервисы получения атрибутивных и геопространственных данных объектов корпоративной ГИС',
-          stack: ['PHP 7.2', 'Slim 4', 'Doctrine DBAL', 'PostgreSQL', 'twig', 'Vuejs 2', 'Vuex', 'Materialize', 'Swagger', 'Webpack 5'],
+          stack: ['PHP 7.2', 'Slim 4', 'Doctrine DBAL', 'PostgreSQL', 'Twig', 'Vuejs 2', 'Vuex', 'Materialize', 'Swagger', 'Webpack 5'],
           details: `Один из микросервисов был реализован на основе реверс-инжиниринга предыдущей версии. Для контроля статистики использования,
            в каждый из микросервисов добавлена frontend визуализация в виде таблиц и диаграмм c данными парсинга лог-файлов.`
         },
@@ -21,7 +21,7 @@ export default {
           language: 'PHP',
           title: 'Загрузка данных',
           description: 'Интеграционный микросервис загрузки графических, атрибутивных и геопространственных данных в БД корпоративной ГИС',
-          stack: ['PHP 7.2', 'Slim 4', 'Doctrine DBAL', 'PostgreSQL', 'twig', 'Vuejs 2', 'Vuex', 'Materialize', 'Swagger', 'Webpack 5']
+          stack: ['PHP 7.2', 'Slim 4', 'Doctrine DBAL', 'PostgreSQL', 'Twig', 'Vuejs 2', 'Vuex', 'Materialize', 'Swagger', 'Webpack 5']
         },
         {
           id: 3,

@@ -6,7 +6,7 @@
       ref="collapsible_elems"
     >
       <li v-for="elem of languagesGetter" :key="elem.id">
-        <div class="collapsible-header">
+        <div class="collapsible-header lighten-3" :class="elem.color">
           <div class="lang-row">
             <div class="lang-logo">
               <img :src="'images/' + elem.logo" alt="logo" />
@@ -22,6 +22,7 @@
               v-for="project of projectsGetter[elem.name]"
               :key="project.id"
               :card_data = "project"
+              :card_color = "elem.color"
             >
             </Card>
           </dir>
