@@ -93,3 +93,19 @@ li.tag {
 a.activator.btn-small {
   background-color: #01579b;
 }
+
+/* Стилизация футера */
+.page-footer {
+  margin-left: 5px;
+  padding-top: 5px;
+  background-color: transparent;
+}
+
+.page-footer a {
+  margin-right: 20px;
+}
+
+#app {
+  /* border: 2px solid red; */
+  min-height: 95vh;
+}
