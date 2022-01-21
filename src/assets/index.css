@@ -3,8 +3,13 @@ body {
   padding: 0;
   background-image: url('images/background.jpg');
   background-color: #042e58;
-  background-size: 100vw;
+  /* background-size: 100vw; */
+  background-size: cover;
   background-repeat: no-repeat;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 /* Стилизация скроллбара */
@@ -22,6 +27,11 @@ body {
   box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
   -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
   background-color: #8383b9;
+}
+
+html, .card-reveal {
+  scrollbar-color: #223c50 #8383b9;
+  scrollbar-width: thin;
 }
 
 #main-text,
@@ -77,7 +87,6 @@ div.collapsible-body {
 
 .card-description {
   padding-bottom: 10px;
-  /* margin-bottom: 20px; */
 }
 
 li.tag {
@@ -107,5 +116,5 @@ a.activator.btn-small {
 
 #app {
   /* border: 2px solid red; */
-  min-height: 95vh;
+  min-height: 91vh;
 }

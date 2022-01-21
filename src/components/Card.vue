@@ -12,7 +12,7 @@
         </ul>
       </div>
       <div class="card-action">
-        <a class="waves-effect waves-light activator btn-small">Подробней</a>
+        <a class="waves-effect waves-light activator btn-small">Подробнее</a>
       </div>
       <div class="card-reveal darken-2" :class="card_color">
         <span class="card-title white-text">{{ card_data.title }}</span>
