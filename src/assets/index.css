@@ -34,7 +34,11 @@ html, .card-reveal {
   scrollbar-width: thin;
 }
 
-#main-text,
+#main-text {
+  background-color: transparent;
+  border: 0px solid transparent;
+}
+
 .collapsible-header {
   filter: opacity(0.85);
 }
