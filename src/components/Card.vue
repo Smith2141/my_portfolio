@@ -5,11 +5,16 @@
       <div class="card-content white-text">
         <span class="card-title">{{ card_data.title }}</span>
         <p class="card-description">{{ card_data.description }}</p>
-        <ul class="card-tags">
+        <!-- <ul class="card-tags">
           <li class="tag" v-for="tag of card_data.stack" :key="tag">
             {{ tag }}
           </li>
-        </ul>
+        </ul> -->
+        <div class="row">
+          <div class="col s2 tag" v-for="tag of card_data.stack" :key="tag">
+            {{ tag }}
+          </div>
+        </div>
       </div>
       <div class="card-action">
         <a class="waves-effect waves-light activator btn-small">Подробнее</a>
