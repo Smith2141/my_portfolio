@@ -40,7 +40,7 @@ export default {
       default: 'white'
     }
   },
-  mounted() {
+  mounted () {
     // console.log(this.card_data)
   }
 }
