@@ -17,7 +17,7 @@
           </div>
         </div>
         <div class="collapsible-body">
-          <dir class="row">
+          <div class="row">
             <Card
               v-for="project of projectsGetter[elem.name]"
               :key="project.id"
@@ -25,7 +25,7 @@
               :card_color = "elem.color"
             >
             </Card>
-          </dir>
+          </div>
         </div>
       </li>
     </ul>

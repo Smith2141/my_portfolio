@@ -1,15 +1,9 @@
 <template>
-  <div class="col s12 m6">
-    <!-- <div class="card horizontal indigo lighten-2"> -->
+  <div class="col s6 offset-s3">
     <div class="card horizontal lighten-1" :class="card_color">
       <div class="card-content white-text">
         <span class="card-title">{{ card_data.title }}</span>
         <p class="card-description">{{ card_data.description }}</p>
-        <!-- <ul class="card-tags">
-          <li class="tag" v-for="tag of card_data.stack" :key="tag">
-            {{ tag }}
-          </li>
-        </ul> -->
         <div class="row">
           <div class="col s2 tag" v-for="tag of card_data.stack" :key="tag">
             {{ tag }}
@@ -30,11 +24,6 @@
 <script>
 export default {
   name: 'Card',
-  // data() {
-  //   return {
-  //     card_data: this.card_data
-  //   }
-  // },
   props: {
     card_data: {
       type: Object,
@@ -45,8 +34,5 @@ export default {
       default: 'white'
     }
   },
-  mounted () {
-    // console.log(this.card_data)
-  }
 }
 </script>
