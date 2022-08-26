@@ -60,7 +60,8 @@ export default {
           stack: ['Nginx', 'PHP 7.4', 'Slim 3', 'Eloquent ORM', 'Phinx','MinIO',
             'PhpSpreadsheet', 'PostgreSQL', 'Twig', 'swagger-php',
             'Vuejs 3', 'Vuex', 'Element Plus', 'Webpack'],
-          details: `Реализация задачи обработки и хранения информации, формирования отчётной и аналитической информации в интересах МВД РФ`
+          details: `Реализация задачи обработки и хранения информации, формирования отчётной
+          и аналитической информации, пакетная генерация документов на печать.`
         }
       ],
       Python: [
